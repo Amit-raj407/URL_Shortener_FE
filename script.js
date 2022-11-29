@@ -2,7 +2,7 @@ async function fetchShortUrl() {
     let url = document.getElementById("url").value;
 
     console.log(url);
-    const response = await fetch(`http://3.89.60.199/api/shortUrl`, {
+    const response = await fetch(`http://ec2-54-90-13-203.compute-1.amazonaws.com/api/shortUrl`, {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
